@@ -1,0 +1,35 @@
+Codones	Comienzo 	AUG
+
+Alanine	Ala (A)  GCU, GCC, GCA, GCG
+Arginine	Arg (R)  CGU, CGC, CGA, CGG, AGA, AGG
+Asparagine	Asn (N)  AAU, AAC
+Aspartic acid 	Asp (D)  GAU, GAC
+Cysteine	Cys (C)  UGU, UGC
+Glutamine	Gln (Q)  CAA, CAG
+Glutamic acid	Glu (E)  GAA, GAG
+Glycine	Gly (G)  GGU, GGC, GGA, GGG
+Histidine	His (H)  CAU, CAC
+Isoleucine	Ile (I)  AUU, AUC, AUA
+Leucine	Leu (L)  UUA, UUG, CUU, CUC, CUA, CUG
+Valine		Val (V)  GUU, GUC, GUA, GUG
+Tyrosine	Tyr (Y)  UAU, UAC
+Tryptophan	Trp (W)  UGG
+Threonine	Thr (T)  ACU, ACC, ACA, ACG
+Serine		Ser (S)  UCU, UCC, UCA, UCG, AGU, AGC
+Proline	Pro (P)  CCU, CCC, CCA, CCG
+Phenylalanine	Phe (F)  UUU, UUC
+Methionine	Met (M)  AUG
+Lysine		Lys (K)  AAA, AAG
+
+Parada 	UAG, UGA, UAA
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+			Ordena los aminoacidos por orden alfabético.
+
+from collections import OrderDict
+dict_order = dict(OrderedDict(sorted(aminos.items())))
+
+aminos = {"Alanine": ("GCU", "GCC", "GCA", "GCG"), "Arginine": ("CGU", "CGC", "CGA", "CGG", "AGA", "AGG"), "Asparagine": ("AAU", "AAC"), "Aspartic acid": ("GAU", "GAC"), "Cysteine": ("UGU", "UGC"), "Glutamine": ("CAA", "CAG"), "Glutamic acid": ("GAA", "GAG"), "Glycine": ("GGU", "GGC", "GGA", "GGG"), "Histidine": ("CAU", "CAC"), "Isoleucine": ("AUU", "AUC", "AUA"), "Leucine": ("UUA", "UUG", "CUU", "CUC", "CUA", "CUG"), "Valine": ("GUU", "GUC", "GUA", "GUG"), "Tyrosine": ("UAU", "UAC"), "Tryptophan": ("UGG"), "Threonine": ("ACU", "ACC", "ACA", "ACG"), "Serine": ("UCU", "UCC", "UCA", "UCG", "AGU", "AGC"), "Proline": ("CCU", "CCC", "CCA", "CCG"), "Phenylalanine": ("UUU", "UUC"), "Methionine": ("AUG"), "Lysine": ("AAA", "AAG")}
+------------------------------------------------------------------------------------------------------------------------------------------------------

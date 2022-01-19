@@ -1,0 +1,28 @@
+                         |
+	   0 1 2  \  eje     |
+	  ______  /   X      |
+	0 |9 8 7             |
+	1 |5 3 2             |
+	2 |6 6 7             |
+                             |
+	\/                   |
+	eje                  |
+	 Y                   |
+-----------------------------|
+
+
+lista_puntos = [(9,8,7), (5,4,2), (6,6,7)]
+
+
+- Iterar entre los puntos entregados en las tuplas, al finalizar entrega una matriz de 3.
+
+------------------------------------------------------------------
+	for x in range(len(lista_puntos)):
+		for y in range(len(lista_punto)):
+			print(list_puntos[x][y], end=" ")
+------------------------------------------------------------------
+	
+	_______
+	| 9 8 7
+	| 5 3 2
+	| 6 6 7
